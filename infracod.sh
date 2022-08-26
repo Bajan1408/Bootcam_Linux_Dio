@@ -32,6 +32,8 @@ chmod 770 /adm/
 chmod 770 /ven/
 chmod 770 /sec/
 
+echo "Configurações realizadas com sucesso!"
+
 
 
 

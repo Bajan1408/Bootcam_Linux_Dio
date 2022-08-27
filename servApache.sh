@@ -1,13 +1,13 @@
 #!/bin/bash
 
 echo "Atualizando o sistema..."
-apt update
+apt-get update
 
-apt upgrade -y
+apt-get upgrade -y
 
 echo "Instalando o servidor Apache..."
 
-apt install apache2 -y
+apt-get install apache2 -y
 
 echo "Iniciando o serviço do Apache..."
 
@@ -15,7 +15,7 @@ systemctl start apache2
 
 echo "Instalando o unzip..."
 
-apt install unzip -y
+apt-get install unzip -y
 
 echo "Download e copia da aplicação..."
 
